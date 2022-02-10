@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE9652D527B4B5C8007DE4AD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9652D427B4B5C8007DE4AD /* AboutViewController.swift */; };
+		CE9652D727B4B7D7007DE4AD /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9652D627B4B7D7007DE4AD /* AboutMeViewController.swift */; };
+		CE9652D927B4C50D007DE4AD /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = CE9652D827B4C50D007DE4AD /* BullsEye.html */; };
 		CEEC0C1627B472800021CFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC0C1527B472800021CFE0 /* AppDelegate.swift */; };
 		CEEC0C1827B472800021CFE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC0C1727B472800021CFE0 /* SceneDelegate.swift */; };
 		CEEC0C1A27B472800021CFE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC0C1927B472800021CFE0 /* ViewController.swift */; };
 		CEEC0C1D27B472800021CFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEC0C1B27B472800021CFE0 /* Main.storyboard */; };
 		CEEC0C1F27B472810021CFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEC0C1E27B472810021CFE0 /* Assets.xcassets */; };
 		CEEC0C2227B472810021CFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEC0C2027B472810021CFE0 /* LaunchScreen.storyboard */; };
-		CEEC0C2D27B472810021CFE0 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC0C2C27B472810021CFE0 /* BullsEyeTests.swift */; };
-		CEEC0C3727B472810021CFE0 /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC0C3627B472810021CFE0 /* BullsEyeUITests.swift */; };
-		CEEC0C3927B472810021CFE0 /* BullsEyeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC0C3827B472810021CFE0 /* BullsEyeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE9652D427B4B5C8007DE4AD /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CE9652D627B4B7D7007DE4AD /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		CE9652D827B4C50D007DE4AD /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		CEEC0C1227B472800021CFE0 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEC0C1527B472800021CFE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEC0C1727B472800021CFE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,10 +48,7 @@
 		CEEC0C2127B472810021CFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEEC0C2327B472810021CFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEEC0C2827B472810021CFE0 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEEC0C2C27B472810021CFE0 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
 		CEEC0C3227B472810021CFE0 /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEEC0C3627B472810021CFE0 /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
-		CEEC0C3827B472810021CFE0 /* BullsEyeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				CEEC0C1427B472800021CFE0 /* BullsEye */,
-				CEEC0C2B27B472810021CFE0 /* BullsEyeTests */,
-				CEEC0C3527B472810021CFE0 /* BullsEyeUITests */,
 				CEEC0C1327B472800021CFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +97,18 @@
 		CEEC0C1427B472800021CFE0 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				CE9652D827B4C50D007DE4AD /* BullsEye.html */,
 				CEEC0C1527B472800021CFE0 /* AppDelegate.swift */,
 				CEEC0C1727B472800021CFE0 /* SceneDelegate.swift */,
 				CEEC0C1927B472800021CFE0 /* ViewController.swift */,
 				CEEC0C1B27B472800021CFE0 /* Main.storyboard */,
+				CE9652D427B4B5C8007DE4AD /* AboutViewController.swift */,
+				CE9652D627B4B7D7007DE4AD /* AboutMeViewController.swift */,
 				CEEC0C1E27B472810021CFE0 /* Assets.xcassets */,
 				CEEC0C2027B472810021CFE0 /* LaunchScreen.storyboard */,
 				CEEC0C2327B472810021CFE0 /* Info.plist */,
 			);
 			path = BullsEye;
-			sourceTree = "<group>";
-		};
-		CEEC0C2B27B472810021CFE0 /* BullsEyeTests */ = {
-			isa = PBXGroup;
-			children = (
-				CEEC0C2C27B472810021CFE0 /* BullsEyeTests.swift */,
-			);
-			path = BullsEyeTests;
-			sourceTree = "<group>";
-		};
-		CEEC0C3527B472810021CFE0 /* BullsEyeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CEEC0C3627B472810021CFE0 /* BullsEyeUITests.swift */,
-				CEEC0C3827B472810021CFE0 /* BullsEyeUITestsLaunchTests.swift */,
-			);
-			path = BullsEyeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEC0C2227B472810021CFE0 /* LaunchScreen.storyboard in Resources */,
+				CE9652D927B4C50D007DE4AD /* BullsEye.html in Resources */,
 				CEEC0C1F27B472810021CFE0 /* Assets.xcassets in Resources */,
 				CEEC0C1D27B472800021CFE0 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEC0C1A27B472800021CFE0 /* ViewController.swift in Sources */,
+				CE9652D727B4B7D7007DE4AD /* AboutMeViewController.swift in Sources */,
 				CEEC0C1627B472800021CFE0 /* AppDelegate.swift in Sources */,
+				CE9652D527B4B5C8007DE4AD /* AboutViewController.swift in Sources */,
 				CEEC0C1827B472800021CFE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEC0C2D27B472810021CFE0 /* BullsEyeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEC0C3927B472810021CFE0 /* BullsEyeUITestsLaunchTests.swift in Sources */,
-				CEEC0C3727B472810021CFE0 /* BullsEyeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +428,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +456,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
